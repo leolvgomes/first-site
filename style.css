@@ -61,6 +61,14 @@ section {
     color: var(--text);
 }
 
+.navbar a {
+    margin: 0 1rem;
+    color: var(--text);
+    padding-bottom: 0.5rem;
+    border-bottom: transparent;
+    transition: 0.3s ease;
+}
+
 .navbar a:hover {
     color: var(--text-muted);
     border-bottom: var(--border);
